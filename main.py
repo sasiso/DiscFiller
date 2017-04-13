@@ -1,7 +1,7 @@
 import argparse
 
 if __name__ == '__main__':
-    argument_Parser = argparse.ArgumentParser(description='Install Example Patient')
+    argument_Parser = argparse.ArgumentParser(description='Disc Filler')
     argument_Parser.add_argument('num_files', help='num_files')
     argument_Parser.add_argument('size_of_file', help='size_of_file')
     args = argument_Parser.parse_args()
